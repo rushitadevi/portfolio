@@ -50,10 +50,10 @@ class Projects extends Component {
                                 <li>
                                     <div className="card">
                                         <div className="divImg">
-                                            <div style={{position: relative, paddingBottom: "56.25%", height: 0}}>
+                                            <div style={{position: "relative", paddingBottom: "56.25%", height: 0}}>
                                                 <iframe src="https://www.loom.com/embed/cf18502137814044a4cbd830332e448d" frameborder="0"
                                                     webkitallowfullscreen mozallowfullscreen allowfullscreen
-                                                    style={{position: absolute , top: 0, left: 0 ,  width: "100%" , height: "100%"}} >
+                                                    style={{position: "absolute" , top: 0, left: 0 ,  width: "100%" , height: "100%"}} >
                                                 </iframe>
                                             </div>
                                         </div>
