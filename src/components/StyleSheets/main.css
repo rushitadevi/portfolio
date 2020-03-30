@@ -1,0 +1,296 @@
+.bg-light {
+  background: #262d2d !important;
+}
+
+.navbar-light .navbar-brand {
+  color: white;
+}
+
+ul.navbar-nav {
+  margin: auto;
+}
+
+.mainContainer {
+  height: 100vh;
+  justify-content: center;
+  background-image: url("https://image.freepik.com/free-vector/abstract-blue-white-wave-background_41814-377.jpg");
+  background-size: cover;
+}
+
+#imgRushita {
+  width: 10%;
+  margin-bottom: 20px;
+}
+
+.displayImg {
+  display: flex;
+  justify-content: center;
+  padding-top: 10vh;
+}
+
+.displayData {
+  height: 200px;
+  display: flex;
+  justify-content: center;
+}
+
+.leftdisplayData {
+  flex: 1;
+}
+
+.middledisplayData {
+  flex: 3;
+  border: 1px solid rgb(63, 62, 62);
+  box-shadow: 3px 3px 3px rgb(63, 62, 62);
+  background: currentColor;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.lblFullStack {
+  font-size: 50px;
+  font-weight: bolder;
+  color: white;
+  padding-top: 20px;
+}
+
+.rightdisplayData {
+  flex: 1;
+}
+
+img {
+  border-radius: 150px;
+}
+
+.lblSkills {
+  color: #e2dddd;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.contactMe {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  padding-top: 30px;
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+}
+
+a#imgLinkedInd img {
+  width: 10% !important;
+  cursor: pointer;
+  margin-right: 20px
+}
+
+a#imgLinkedInd img:hover {
+  /* width: 15% !important; */
+}
+
+/* About Me */
+.main {
+  height: 100vh;
+  background-image: url("https://image.freepik.com/free-vector/abstract-blue-white-wave-background_41814-377.jpg");
+  background-size: cover;
+}
+
+.mainAbout {
+  display: flex;
+  justify-content: center;
+}
+
+.leftAbout {
+  flex: 1;
+}
+
+.middleAbout {
+  flex: 3;
+}
+
+.rightAbout {
+  flex: 1;
+}
+
+.lblAboutMe {
+  font-size: 20px;
+  color: #1b1b53;
+  padding-top: 20px;
+}
+
+.displayContact {
+  display: flex;
+}
+
+svg {
+  color: #e66912;
+  height: 30px;
+  width: 30px;
+}
+
+.leftContactMe {
+  flex: 1;
+}
+
+.rightContactMe {
+  flex: 1;
+}
+
+.middleContactMe {
+  flex: 3;
+  padding-top: 20px;
+}
+
+.lblvirtual {
+  font-size: 25px;
+  font-weight: bolder;
+  color: #1b1b53;
+  border-bottom: 1px solid lightgray;
+  margin-bottom: 10px;
+}
+
+.weaponary {
+  display: flex;
+}
+
+.leftWeaponary {
+  flex: 1;
+}
+
+.rightWeaponary {
+  flex: 1;
+}
+
+.middleWeaponary {
+  flex: 3;
+  padding-top: 20px;
+}
+
+.githubLink {
+  color: black;
+  text-decoration: none;
+}
+
+.githubLink:hover {
+  text-decoration: none;
+}
+
+td:hover {
+  /* border-left: 2px solid rgb(240, 154, 182) !important; */
+  /* border-bottom: 2px solid yellowgreen !important; */
+}
+
+span:hover{
+  border-left: 2px solid rgb(110, 110, 47) !important;
+  display: inline-block;
+}
+
+.table {
+  border: none;
+  width: 80%;
+}
+.table-bordered td {
+  border: none;
+}
+
+.table thead th {
+  border: none;
+}
+
+/* Projects */
+.mainProjects{
+    /* display: flex; */
+    height: 100vh;
+  background-image: url("https://image.freepik.com/free-vector/abstract-blue-white-wave-background_41814-377.jpg");
+  background-size: cover;
+}
+
+.leftMainProjects{
+    flex:1
+}
+
+.rightMainProjects{
+    flex: 1;
+}
+
+.middleMainProjects{
+    flex:3;
+    display:flex;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.card{
+    height: 450px
+}
+
+.card__content{
+    overflow: auto;
+    padding: 1px;
+}
+
+.displayCards {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    padding: 20px;
+    /* padding-right: 10px */
+  }
+  
+  /* div setting */
+  #displayCardsCol {
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 20px
+  }
+
+  .ulList {
+    list-style: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+  }
+  
+  /* for card Image */
+  .divImg {
+    width: 400px;
+    height: 400px;
+    /* overflow: hidden; */
+    
+  }
+
+  img{
+      /* border-radius: 0px; */
+  }
+
+  h3{
+    font-weight: bold;
+    font-size: larger;
+    color: darkcyan;
+    padding-top: 20px;
+    margin-bottom: 0px;
+    padding: 10px
+  }
+  
+  .list-group-item{
+     background-color: #eaf3be;
+  }
+
+  @media screen and (max-width:1440)
+  {
+    .mainProjects{
+          min-height: 100vh !important;
+    }
+  }
+
+  @media screen and (max-width:768)
+  {
+    .mainProjects{     
+      min-height: 100vh !important;
+    }
+  }

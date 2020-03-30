@@ -2,11 +2,14 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import Welcome from "./components/welcome"
+import 'bootstrap/dist/css/bootstrap.min.css';
+import '../src/components/StyleSheets/main.css'
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Welcome  />
   </React.StrictMode>,
   document.getElementById('root')
 );
