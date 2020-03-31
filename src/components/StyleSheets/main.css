@@ -10,11 +10,21 @@ ul.navbar-nav {
   margin: auto;
 }
 
+@media screen and (max-width:375px)
+{
+  .navbar{
+    justify-content: space-around;
+  }
+}
+
+
 .mainContainer {
   height: 100vh;
   justify-content: center;
   background-image: url("https://image.freepik.com/free-vector/abstract-blue-white-wave-background_41814-377.jpg");
   background-size: cover;
+  justify-content: center;
+    align-items: center
 }
 
 #imgRushita {
@@ -45,6 +55,25 @@ ul.navbar-nav {
   background: currentColor;
   border-radius: 20px;
   text-align: center;
+}
+
+@media screen and (max-width :375px){
+  .middledisplayData{
+    width: 300px !important;
+    height: 130px;
+  }
+  .lblSkills{
+    font-size: 10px;
+  }
+}
+
+@media screen and (max-width :375px){
+  label.lblFullStack{
+    font-size: 20px;
+  }
+  label.lblSkills{
+    font-size: 10px;
+  }
 }
 
 .lblFullStack {
@@ -281,16 +310,23 @@ span:hover{
      background-color: #eaf3be;
   }
 
-  @media screen and (max-width:1440)
+  @media screen and (max-width:1440px)
   {
     .mainProjects{
           min-height: 100vh !important;
     }
   }
 
-  @media screen and (max-width:768)
+  @media screen and (max-width:768px)
   {
     .mainProjects{     
       min-height: 100vh !important;
+    }
+  }
+
+  @media screen and (max-width:768px)
+  {
+    .lblFullStack{     
+      font-size: 30px;
     }
   }
