@@ -41,7 +41,7 @@ class AboutMe extends Component {
                                 <tbody>
                                     <tr>
                                         <td><MdEmail />rushi.devi@gmail.com </td>
-                                        <td><FaMobileAlt />+48 739 588 416</td>
+                                        <td><FaMobileAlt />+48739588416</td>
                                     </tr>
                                 </tbody>
                             </Table>
@@ -53,7 +53,7 @@ class AboutMe extends Component {
                       <div className="leftWeaponary">
                       </div>
                       <div className="middleWeaponary">
-                      <label className="lblvirtual">My Weaponary!</label> <br></br>
+                      <label className="lblvirtual">My Weaponry!</label> <br></br>
                             <Table bordered size="sm" responsive>  
                                 <tbody>
                                     <tr>

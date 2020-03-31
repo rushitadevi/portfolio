@@ -321,6 +321,7 @@ span:hover{
   {
     .mainProjects{     
       min-height: 100vh !important;
+      height: auto;
     }
   }
 
@@ -328,5 +329,37 @@ span:hover{
   {
     .lblFullStack{     
       font-size: 30px;
+    }
+  }
+
+  @media screen and (max-width:768px)
+  {
+    #imgRushita{     
+      width: 25%;
+    }
+    .displayData{
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width:414px){
+    .main{
+      height: auto;
+    }
+  }
+
+  @media screen and (max-width:414px)
+  {
+    .divImg{
+       width: 300px;
+       height: auto;
+    }
+  }
+
+  @media screen and (max-width:360px)
+  {
+    .divImg{
+      width: 250px;
+      height: auto;
     }
   }
