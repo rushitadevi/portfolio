@@ -73,7 +73,7 @@ class Projects extends Component {
                                 <li>
                                     <div className="card">
                                         <div className="divImg">
-                                            <div style={{ position="relative", paddingBottom: "56.25%", height: "0" }}>
+                                            <div style={{ position:"relative", paddingBottom: "56.25%", height: "0" }}>
                                                 <iframe src="https://www.loom.com/embed/8a71dd63f36f42169a2866bc950d90c7" frameborder="0"
                                                     webkitallowfullscreen mozallowfullscreen allowfullscreen
                                                     style={{ position: "absolute", top: "0", left: "0", width: "100%", height: "100%" }}>
